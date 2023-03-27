@@ -144,7 +144,7 @@ export default {
 | theme | `string` |  | 否 | 否 |
 | optimize | `boolean` | `false` | 否 | 保持缩放比例不变 |
 | enableAutoMaxOverlooking | `boolean` | `false` | 否 | 开启最大俯视角，俯视角度从 45 度拓展到 75 度 |
-| enable3D | `boolean` | `false` | 否 | 展示3D楼块 |
+| enable3D | `boolean` |  | 否 | 展示3D楼块 |
 | onTap | `CommonEventFunction` |  | 否 | 点击地图时触发 |
 | onMarkerTap | `CommonEventFunction<onMarkerTapEventDetail>` |  | 否 | 点击标记点时触发，e.detail = {markerId} |
 | onLabelTap | `CommonEventFunction<onLabelTapEventDetail>` |  | 否 | 点击label时触发，e.detail = {markerId} |
